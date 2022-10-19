@@ -1,0 +1,210 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "country": "Russia"
+    },
+    {
+      "id": 2,
+      "country": "Thailand"
+    },
+    {
+      "id": 3,
+      "country": "Indonesia"
+    },
+    {
+      "id": 4,
+      "country": "Philippines"
+    },
+    {
+      "id": 5,
+      "country": "Serbia"
+    },
+    {
+      "id": 6,
+      "country": "Belarus"
+    },
+    {
+      "id": 7,
+      "country": "Venezuela"
+    },
+    {
+      "id": 8,
+      "country": "Portugal"
+    },
+    {
+      "id": 9,
+      "country": "Argentina"
+    },
+    {
+      "id": 10,
+      "country": "Kazakhstan"
+    },
+    {
+      "id": 11,
+      "country": "Ivory Coast"
+    },
+    {
+      "id": 12,
+      "country": "Sri Lanka"
+    },
+    {
+      "id": 13,
+      "country": "Poland"
+    },
+    {
+      "id": 14,
+      "country": "China"
+    },
+    {
+      "id": 15,
+      "country": "Slovenia"
+    },
+    {
+      "id": 16,
+      "country": "France"
+    },
+    {
+      "id": 17,
+      "country": "Brazil"
+    },
+    {
+      "id": 18,
+      "country": "Ukraine"
+    },
+    {
+      "id": 19,
+      "country": "Sweden"
+    },
+    {
+      "id": 20,
+      "country": "Finland"
+    },
+    {
+      "id": 21,
+      "country": "Iran"
+    },
+    {
+      "id": 22,
+      "country": "Czech Republic"
+    },
+    {
+      "id": 23,
+      "country": "Malaysia"
+    },
+    {
+      "id": "338416f5-826f-4949-b1d3-6234b973569e",
+      "country": "India"
+    }
+  ],
+  "cities": [
+    {
+      "country": "Thailand",
+      "population": 2588777,
+      "city": "Caetitérrrr",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "country": "Philippines",
+      "city": "Campelos",
+      "population": 4301
+    },
+    {
+      "id": 5,
+      "country": "Serbia",
+      "city": "Clermont-Ferrand",
+      "population": 1796
+    },
+    {
+      "id": 6,
+      "country": "Belarus",
+      "city": "Chengnan",
+      "population": 4252
+    },
+    {
+      "id": 7,
+      "country": "Venezuela",
+      "city": "Pyetrykaw",
+      "population": 769
+    },
+    {
+      "id": 8,
+      "country": "Portugal",
+      "city": "Ulichnoye",
+      "population": 3915
+    },
+    {
+      "id": 9,
+      "country": "Argentina",
+      "city": "Kuliyapitiya",
+      "population": 4745
+    },
+    {
+      "id": 10,
+      "country": "Kazakhstan",
+      "city": "Paôy Pêt",
+      "population": 869
+    },
+    {
+      "id": 13,
+      "country": "Poland",
+      "city": "Emmen",
+      "population": 4443
+    },
+    {
+      "id": 14,
+      "country": "China",
+      "city": "Ipoh",
+      "population": 4519
+    },
+    {
+      "id": 15,
+      "country": "Slovenia",
+      "city": "Xiawa",
+      "population": 3440
+    },
+    {
+      "id": 16,
+      "country": "France",
+      "city": "Hepu",
+      "population": 2081
+    },
+    {
+      "id": 17,
+      "country": "Brazil",
+      "city": "Kitakata",
+      "population": 2465
+    },
+    {
+      "id": 18,
+      "country": "Ukraine",
+      "city": "Khon Kaen",
+      "population": 4841
+    },
+    {
+      "id": 19,
+      "country": "Sweden",
+      "city": "Pasirdalem",
+      "population": 2563
+    },
+    {
+      "id": 20,
+      "country": "Finland",
+      "city": "Lianhe",
+      "population": 1415
+    },
+    {
+      "id": 21,
+      "country": "Iran",
+      "city": "Yutan",
+      "population": 1542
+    },
+    {
+      "id": 23,
+      "country": "Malaysia",
+      "city": "Usukhchay",
+      "population": 4829
+    }
+  ]
+}
