@@ -38,7 +38,7 @@ export const removeOneCity = () => {
 
 export const getOneCityCall = (id: any) => (dispatch: any) => {
   axios
-    .get(`http://localhost:8080/cities/${id}`)
+    .get(`/cities/${id}`)
     .then((response) => {
       dispatch(getOneCity(response.data));
     })
@@ -51,7 +51,7 @@ export const getOneCityCall = (id: any) => (dispatch: any) => {
 
 export const getAllCityDataActionCall = () => (dispatch: any) => {
   axios
-    .get("http://localhost:8080/cities")
+    .get("/cities")
     .then((response) => {
       dispatch(getAllCityDataAction(response.data));
     })
@@ -64,7 +64,7 @@ export const getAllCityDataActionCall = () => (dispatch: any) => {
 
 export const getAllCountryCall = () => (dispatch: any) => {
   axios
-    .get("http://localhost:8080/countries")
+    .get("/countries")
     .then((response) => {
       dispatch(getAllCountry(response.data));
     })
@@ -77,7 +77,7 @@ export const getAllCountryCall = () => (dispatch: any) => {
 
 export const deleteCityActionCall = (id: any) => (dispatch: any) => {
   axios
-    .delete(`http://localhost:8080/cities/${id}`)
+    .delete(`/cities/${id}`)
     .then(() => {
       dispatch(getAllCityDataActionCall());
     })
@@ -92,9 +92,9 @@ export const sortCityByPopulationCall =
   (sort: string, order: string) => (dispatch: any) => {
     let link: any;
     if (sort !== "" && order !== "") {
-      link = `http://localhost:8080/cities?_sort=${sort}&_order=${order}`;
+      link = `/cities?_sort=${sort}&_order=${order}`;
     } else {
-      link = `http://localhost:8080/cities`;
+      link = `/cities`;
     }
     axios
       .get(link)
@@ -110,7 +110,7 @@ export const sortCityByPopulationCall =
 
 export const filterByCountryCall = (text: string) => (dispatch: any) => {
   axios
-    .get(`http://localhost:8080/cities?q=${text}`)
+    .get(`/cities?q=${text}`)
     .then((response) => {
       dispatch(getAllCityDataAction(response.data));
     })
@@ -127,7 +127,7 @@ export const postCountryCall = (country: any) => (dispatch: any) => {
     country,
   };
   axios
-    .post("http://localhost:8080/countries", payload)
+    .post("/countries", payload)
     .then(() => {
       dispatch(getAllCityDataActionCall());
     })
@@ -144,7 +144,7 @@ export const postCityCall = (data: any) => (dispatch: any) => {
     id: uuid(),
   };
   axios
-    .post("http://localhost:8080/cities", payload)
+    .post("/cities", payload)
     .then(() => {
       dispatch(getAllCityDataActionCall());
     })
@@ -157,7 +157,7 @@ export const postCityCall = (data: any) => (dispatch: any) => {
 
 export const patchCityCall = (id: any, payload: any) => (dispatch: any) => {
   axios
-    .put(`http://localhost:8080/cities/${id}`, payload)
+    .put(`/cities/${id}`, payload)
     .then(() => {
       dispatch(getAllCityDataActionCall());
     })
