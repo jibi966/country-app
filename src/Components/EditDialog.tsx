@@ -76,7 +76,7 @@ function EditDialog({ id, handleClose }: any) {
       ) : (
         <form style={{ padding: 1 }} onSubmit={handleSubmit}>
           <DialogContent>
-            {!city ? (
+            {!cityValue && !city.city ? (
               <CircularProgress />
             ) : (
               <TextField
@@ -88,8 +88,8 @@ function EditDialog({ id, handleClose }: any) {
                 placeholder="Enter City..."
                 InputLabelProps={{ shrink: true }}
               />
-            )}{" "}
-            {!city ? (
+            )}
+            {!cityValue && !city.city ? (
               <CircularProgress />
             ) : (
               <TextField
@@ -104,9 +104,10 @@ function EditDialog({ id, handleClose }: any) {
                 InputLabelProps={{ shrink: true }}
               />
             )}
+
             <br />
             <br />
-            {!city ? (
+            {!cityValue && !city.city ? (
               <CircularProgress />
             ) : (
               <Autocomplete
