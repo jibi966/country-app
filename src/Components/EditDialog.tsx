@@ -89,6 +89,7 @@ function EditDialog({ id, handleClose }: any) {
                 InputLabelProps={{ shrink: true }}
               />
             )}
+            <br />
             {!cityValue && !city.city ? (
               <CircularProgress />
             ) : (
